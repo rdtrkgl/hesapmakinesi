@@ -8,4 +8,6 @@ num2 = int(input("İkinci sayı : "))
 
 
 if islem == "1":
-   print("{} + {} = {}".format(num1,num2,num1+num2)) 
+   print("{} + {} = {}".format(num1,num2,num1+num2))   
+elif islem == "2":
+    print("{} / {} = {}".format(num1,num2,num1/num2))
